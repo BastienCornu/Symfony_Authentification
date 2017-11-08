@@ -1,0 +1,8 @@
+{% extends "base.html.twig" %}
+{% block body %}
+
+    <fieldset><legend><h1><u><i>Admin</i></u></h1></legend>
+    <h3><u>Identifiant:</u></h3> <i>{{ app.user.username }}</i></br>
+    <h3><u>Mdp:</u></h3> <i>{{ app.user.password }}</i>
+    </fieldset>
+{% endblock %}
